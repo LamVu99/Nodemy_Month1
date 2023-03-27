@@ -1,0 +1,48 @@
+.login {
+    font-family:cursive;
+    position: relative;
+    text-align: center;
+    padding-left: 10%;
+}
+.inputemail{
+    right: 43px;
+    position: relative;
+}
+.inputpassword{
+    right: 30px;
+    position: relative;
+}
+.h1login{
+    left: 5%;
+}
+.password{
+   left: 90px;
+    color: blue;
+}
+.create a{
+    color: blue;
+    left: 80px;
+}
+.login1{
+    background-color: rgb(67, 95, 235);
+    color: white;
+    width: 15%
+}
+.login2{
+    background-color: rgb(142, 179, 253);
+    width: 15%;
+    color: white;
+}
+#orlogin b{
+   position: relative;
+   color: black;
+}
+.createaccount{
+    font-size: 70%;
+    position: relative;
+    margin-right: 485px;
+    text-align: right;
+}
+.login1:hover{
+    background-color: red;
+}

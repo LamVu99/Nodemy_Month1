@@ -1,0 +1,31 @@
+h1{
+color: rgb(155, 16, 16);
+text-align: center;
+
+
+}
+h2{
+    color: rgba(42, 42, 232, 0.5);
+}
+body {
+    background-color: white;
+    font-family: cursive;
+    background: url("https://img3.thuthuatphanmem.vn/uploads/2019/06/13/anh-nen-anime-cho-may-tinh-dep_095239016.jpg") no-repeat fixed center center;
+    background-size: 100% 100%;
+    
+}
+.tieude{
+    color: red !important;
+}
+.sanpham{
+    color: green;
+}
+#ip14{
+    color: aliceblue;
+}
+.khoi1 {
+    color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

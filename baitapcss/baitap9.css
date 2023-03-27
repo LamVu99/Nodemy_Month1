@@ -1,0 +1,25 @@
+.img1{
+    width: 350px;    
+}
+.mainmenu{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 350px;
+    height: 450px;
+}
+.text{
+    color: black;
+    position: absolute;
+    bottom: 230px;
+    background-color: rgb(142, 207, 50);
+}
+.text2{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 200px;
+}
+.text3{
+    color: red;
+    position: absolute;
+    bottom: 170px;
+}

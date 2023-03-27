@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu2 ul{
+    border: 1px solid black;
+    list-style: none;
+    width: 200px;
+    padding: 0;
+    opacity: 0;
+    transition: 1s;
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+.mainmenu2 ul li{
+    border: 1px solid black;
+    padding: 0;
+}
+.mainmenu3{
+    width: 150px;
+    margin: 0 auto;
+}
+.mainmenu2{
+    list-style: none;
+   
+    border: solid black 1px;
+    background-color: rgb(68, 186, 68);
+    position: relative;
+}
+.mainmenu2:hover ul{
+    opacity: 1;
+position: absolute;
+left: 150px;
+top: 0px;
+background-color: rgb(43, 225, 49);
+color: black;
+width: 200px;
+}
+.mainmenu2:hover{
+    color: white;
+}
+.mainmenu1:hover{
+    color: white;
+}

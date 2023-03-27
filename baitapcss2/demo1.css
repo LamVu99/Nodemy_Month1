@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.breadcrumb-arrow{
+    display: flex;
+    font-size: 13px;
+    list-style: none;
+    width: 100%;
+    height: 1px;
+}
+#text-head{
+   color: #777777;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1px;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.totalimg{
+    width: 50%;
+top: 5px;
+position: sticky;
+display: flex;
+height: 50%;
+}
+.left-margin{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.body{
+    width: 90%;
+    height: 100%;
+    margin-left: 5px;
+    align-content: center;
+    position: relative;
+}
+#discount{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    text-align: center;
+    left: 0px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 20%;
+    color: white;
+    background-color: #FF0000;
+    padding-top: 8px;
+    top: 0px;
+    font-size: 13px;
+}
+
+.right-margin{
+    width: 50%;
+}
+@media screen and (max-width: 540px) {
+    .right-margin{
+        width: 100%;
+        order: 2;
+    }
+    .totalimg{
+        width: 100%;
+    top: 5px;
+    position: relative;
+    display: flex;
+    height: 50%;
+    }
+    #add-to-cart{
+        width: 100px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .body{
+        width: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        order: 0;
+    }
+    .left-margin{
+        flex-direction: column;
+    }
+    #viewed-products{
+        padding-top: 80%;
+    }
+    .left-margin{
+        order: 1;
+    }
+}
+img{
+    
+}
+#imgmarginleft{
+    width: 100%;
+    vertical-align: middle;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    object-fit: contain;
+}
+#imgbody{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    object-fit: contain;
+}
+.right-margin h1{
+    display: flex;
+    font-size: 20px;
+}
+.text-top{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-top h1{
+    padding-bottom: 20px;
+}
+.text{
+    font-weight: 100;
+    margin-right: 10px;
+    text-decoration: line-through;
+    text-align: center;
+}
+.text1{
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+.text2{
+    color: white;
+    background: orangered;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+}
+.text-top sup{
+    font-size: 14px;
+    padding: 0px;
+}
+.text-top button{
+    width: 30px;
+    height: 38px;
+    outline: 0;
+}
+.text-top input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+button, input, select, textarea{
+font-family: inherit;
+font-size: inherit;
+font-weight: 700;
+}
+.quantity{
+    padding-top: 20px;
+}
+#btn-quantity{
+    width: 15%;
+    font-weight: 700;
+}
+.addcart-area{
+    padding-left: 20px;
+}
+#add-to-cart{
+    text-align: center;
+    color: white;
+    background: rgb(75, 73, 73);
+    width: 100%;
+    font-weight: 600;
+    border-radius: 3%;
+    margin-left: 10px;
+}
+#add-to-cart:hover{
+    background: black;
+    transition: 1s;
+}
+
+.viewed-products{
+    height: 40%;
+}
+.text-shipchange{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 30px;
+}
+.text-freeship{
+   width: 45%;
+   text-align: center;
+   padding: 17px;
+   font-weight: 600;
+    background: rgb(240, 234, 224);
+}
+.title-panel{
+    padding-top: 20px;
+    padding-left: 8px;
+    display: block;
+}
+.title-panel h2{
+    font-size: 15px;
+}
+.delivery{
+    padding-top: 0px;
+}
+.description-products{
+    width: 100%;
+    line-height: 1.8;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 14px;
+}
+.description-products p{
+    padding-top: 7px;
+}
+.delivery h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.delivery p{
+font-size: 14px;
+display: block;
+}
+.related-product{
+    text-align: center !important;
+}
+.price{
+    font-weight: 700;
+}
+.price1{
+    font-weight: 700;
+}
+.product-earing{
+    top: 0px;
+}
+#related-products{
+text-align: center;
+padding-top: 10%;
+}
+#viewed-products{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.product-list p{
+    user-select: none;
+}

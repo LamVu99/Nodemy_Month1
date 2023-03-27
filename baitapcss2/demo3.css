@@ -1,0 +1,14 @@
+.bam-dinh {
+    position: sticky;
+    top: 0;
+    height: 500px;
+  }
+  #add-to-cart{
+    text-align: center;
+    color: white;
+    background: rgb(75, 73, 73);
+    width: 100%;
+    font-weight: 600;
+    border-radius: 3%;
+    margin-left: 10px;
+}

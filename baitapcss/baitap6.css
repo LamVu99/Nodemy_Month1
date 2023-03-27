@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+
+}
+.text4{
+    position: absolute;
+    bottom: 330px;
+    text-align: center;
+    left: 30px;
+}
+.text5{
+    color: red;
+    position: absolute;
+    bottom: 310px;
+    text-decoration: line-through;
+    font-weight: 600;
+
+}
+.text6{
+    color: red;
+    position: absolute;
+    bottom: 290px;
+    font-weight: 600;
+}
+.text7{
+    background-color: red;
+    width: 35px;
+    color: white;
+    font-weight: 600;
+}
+.text8{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    color: white;
+    background-color: green;
+}

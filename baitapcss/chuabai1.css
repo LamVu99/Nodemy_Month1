@@ -1,0 +1,37 @@
+*{
+margin: 0 auto;
+font-family: Bradley Hand, cursive;
+}
+.login{
+    width: 300px;
+}
+.login1{
+    text-align: center;
+    font-size: larger;
+}
+.login input{
+    width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.btn-login{
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: blue;
+    color: white;
+}
+.login2{
+    padding: 4%;
+    font-size: medium;
+}
+.btn-loginfb{
+    background-color: rgb(72, 119, 206);
+}
+.btn-login:hover{
+    background-color: red;
+}
+.btn-loginfb:hover{
+    background-color: green;
+}

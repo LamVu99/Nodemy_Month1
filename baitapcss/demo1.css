@@ -1,0 +1,11 @@
+.hello{
+    font-family: Rubik iso;
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient(red, blue);
+}
+.hello1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
